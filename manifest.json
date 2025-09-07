@@ -1,0 +1,36 @@
+﻿{
+ "manifest_version": 3,
+ "name": "N8N Workflow Automator - AI Powered",
+ "version": "1.0.0",
+ "description": "Advanced AI-powered workflow automation that surpasses every competitor",
+ "permissions": [
+   "activeTab",
+   "storage",
+   "scripting",
+   "tabs"
+ ],
+ "host_permissions": [
+   "*://n8n.io/*",
+   "*://app.n8n.cloud/*",
+   "*://zapier.com/*",
+   "*://make.com/*"
+ ],
+ "background": {
+   "service_worker": "background/service-worker.js"
+ },
+ "content_scripts": [
+   {
+     "matches": ["*://n8n.io/*", "*://app.n8n.cloud/*"],
+     "js": ["content/n8n-injector.js"]
+   }
+ ],
+ "action": {
+   "default_popup": "popup/popup.html",
+   "default_title": "N8N Workflow Automator"
+ },
+ "icons": {
+   "16": "assets/icons/icon16.png",
+   "48": "assets/icons/icon48.png",
+   "128": "assets/icons/icon128.png"
+ }
+}
