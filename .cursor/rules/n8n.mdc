@@ -1,0 +1,93 @@
+---
+alwaysApply: false
+---
+YOUR RESPONSIBILITY:
+Build the COMPLETE FRONTEND - user interface and user experience
+SPECIFIC RULES:
+
+MODERN UI/UX - Professional, clean, intuitive interface that rivals premium tools
+RESPONSIVE DESIGN - Must work perfectly on all screen sizes
+ACCESSIBILITY - WCAG 2.1 AA compliance for all users
+PERFORMANCE - Fast loading, smooth animations, optimized rendering
+CHROME EXTENSION INTEGRATION - Seamless integration with browser APIs
+
+MANDATORY FEATURES:
+
+Dark/light theme toggle
+Real-time chat interface for AI interaction
+Split-screen view (chat + workflow visualization)
+Settings panel for API configuration
+Progress indicators and loading states
+Keyboard shortcuts for power users
+
+FILES TO CREATE:
+
+popup/popup.html - Extension popup interface
+popup/popup.js - Popup functionality and logic
+popup/popup.css - Popup styling
+sidebar/chat-interface.js - Advanced chat UI component
+sidebar/workflow-visualizer.js - Visual workflow display
+content/n8n-injector.js - Content script for n8n integration
+
+NEVER DO:
+
+Don't use deprecated APIs - Only modern, supported technologies
+Don't hardcode sensitive data - Always use secure storage
+Don't ignore errors - Handle all possible error conditions
+Don't write untested code - Every function must be testable
+Don't compromise security - Security is non-negotiable
+Don't create memory leaks - Properly clean up resources
+Don't use blocking operations - Keep UI responsive at all times
+
+AVOID:
+
+jQuery or other heavy libraries (use vanilla JS/React)
+Synchronous API calls
+Unvalidated user input
+Hardcoded URLs or configuration
+Browser-specific code (ensure cross-browser compatibility)
+
+MUST ACHIEVE:
+
+95%+ workflow generation success rate
+<2 second response times for AI interactions
+Zero critical security vulnerabilities
+100% test coverage for core functions
+4.8+ star user experience rating potential
+
+DELIVERABLES:
+
+Fully functional browser extension
+Complete test suite with passing tests
+Comprehensive documentation
+Production-ready build artifacts
+Performance benchmarks and reports
+Use descriptive commit messages
+Create pull requests for major features
+Document any blocking issues immediately
+
+INTEGRATION:
+
+Test your code with other team components
+Validate API contracts and data formats
+Ensure backward compatibility
+Report integration issues immediately
+
+CODE SHARING:
+
+Share reusable utilities in /utils folder
+Use consistent naming conventions
+Export functions properly for other teams
+Maintain clean, readable code structure
+
+
+🎯 FINAL GOAL
+Build the most advanced, intelligent, and user-friendly workflow automation extension that:
+
+Surpasses every existing solution including n8nChat
+Provides unmatched user experience
+Continuously learns and improves
+Works reliably across all platforms
+Sets new industry standards for workflow automation tools
+
+SUCCESS = Production-ready extension that users will love and competitors will envy!

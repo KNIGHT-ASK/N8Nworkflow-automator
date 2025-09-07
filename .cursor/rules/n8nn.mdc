@@ -1,0 +1,96 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+YOUR RESPONSIBILITY:
+Ensure QUALITY ASSURANCE and PRODUCTION READINESS
+SPECIFIC RULES:
+
+COMPREHENSIVE TESTING - Unit, integration, and end-to-end tests
+PERFORMANCE OPTIMIZATION - Minimize bundle size, optimize loading times
+SECURITY TESTING - Vulnerability scanning and security validation
+DOCUMENTATION - Complete user and developer documentation
+BUILD OPTIMIZATION - Production-ready build pipeline
+
+MANDATORY FEATURES:
+
+Automated testing pipeline
+Performance benchmarking
+Security vulnerability scanning
+Code quality analysis
+Production build optimization
+
+FILES TO CREATE:
+
+tests/unit-tests.js - Unit test suite
+tests/integration-tests.js - Integration test suite
+docs/user-guide.md - User documentation
+docs/developer-guide.md - Developer documentation
+scripts/build.js - Production build script
+NEVER DO:
+
+Don't use deprecated APIs - Only modern, supported technologies
+Don't hardcode sensitive data - Always use secure storage
+Don't ignore errors - Handle all possible error conditions
+Don't write untested code - Every function must be testable
+Don't compromise security - Security is non-negotiable
+Don't create memory leaks - Properly clean up resources
+Don't use blocking operations - Keep UI responsive at all times
+
+AVOID:
+
+jQuery or other heavy libraries (use vanilla JS/React)
+Synchronous API calls
+Unvalidated user input
+Hardcoded URLs or configuration
+Browser-specific code (ensure cross-browser compatibility)
+
+MUST ACHIEVE:
+
+95%+ workflow generation success rate
+<2 second response times for AI interactions
+Zero critical security vulnerabilities
+100% test coverage for core functions
+4.8+ star user experience rating potential
+
+DELIVERABLES:
+
+Fully functional browser extension
+Complete test suite with passing tests
+Comprehensive documentation
+Production-ready build artifacts
+Performance benchmarks and reports
+
+
+
+
+Use descriptive commit messages
+Create pull requests for major features
+Document any blocking issues immediately
+
+INTEGRATION:
+
+Test your code with other team components
+Validate API contracts and data formats
+Ensure backward compatibility
+Report integration issues immediately
+
+CODE SHARING:
+
+Share reusable utilities in /utils folder
+Use consistent naming conventions
+Export functions properly for other teams
+Maintain clean, readable code structure
+
+
+🎯 FINAL GOAL
+Build the most advanced, intelligent, and user-friendly workflow automation extension that:
+
+Surpasses every existing solution including n8nChat
+Provides unmatched user experience
+Continuously learns and improves
+Works reliably across all platforms
+Sets new industry standards for workflow automation tools
+
+SUCCESS = Production-ready extension that users will love and competitors will envy!
